@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <head>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-*******"
+        crossorigin="anonymous"
+      />
+    </head>
+
+    <title>My Professional Website</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to bottom, #127be3, #ffffff);
+        color: #343a40;
+        font-size: 16px;
+      }
+
+      header {
+        background-color: #0b55a0;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+        transition: color 0.3s ease;
+        font-size: 18px; /* Increase font size for navigation links */
+      }
+
+      nav ul li a:hover {
+        color: #ffc107;
+      }
+
+      main {
+        padding: 20px;
+        /* border: 2px solid red; */
+      }
+
+      section {
+        margin-bottom: 40px;
+      }
+
+      footer {
+        background-color: #343a40;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+      h2 {
+        color: #343a40;
+        font-size: 36px; /* Increase font size for section headings */
+      }
+
+      p {
+        line-height: 1.6;
+        font-size: 18px; /* Increase font size for paragraphs */
+      }
+
+      .container {
+        /* max-width: 800px; */
+        padding-left: 20px;
+      }
+
+      .profile-img {
+        text-align: left;
+        margin-bottom: 20px;
+        /* border: 2px solid red; */
+        display: flex;
+        background-image: url(https://wallpapers.com/images/featured/background-design-6tgpche84avnjqvz.jpg);
+        background-size: cover;
+        position: relative;
+      }
+
+      .profile-img img {
+        width: 600px;
+        border-radius: 50%;
+        border: 5px solid #343a40;
+        margin-left: 400px;
+      }
+      .profile-img .greeting {
+        font-size: 36px;
+        font-style: italic;
+        color: #fff;
+        margin-top: 350px;
+        margin-left: 100px;
+      }
+      @keyframes slideInFromLeft {
+        0% {
+          opacity: 0;
+          transform: translateX(-100%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+
+      .greeting {
+        animation: slideInFromLeft 0.5s ease forwards;
+      }
+
+      /* #about-me {
+      } */
+
+      .about-me2 {
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .about-me2 p {
+        /* border: 2px solid rgb(62, 21, 186); */
+        width: 50%;
+        margin-top: -10px;
+        font-size: 22px;
+      }
+      #education {
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      #education p {
+        font-size: 22px;
+      }
+      .certificates {
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+      }
+
+      .certificates img {
+        width: 300px;
+        height: 200px;
+        margin-top: 20px;
+        border-radius: 20px;
+        border: 2px solid #ccc;
+      }
+      .c-one,
+      .c-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        /* border: 2px solid red; */
+        margin-left: 200px;
+        margin-right: 200px;
+      }
+      #skills {
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      #skills i {
+        margin-left: 150px;
+      }
+      #experience {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      #experience p {
+        font-size: 22px;
+      }
+      #contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      #contact p {
+        font-size: 22px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section id="about-me">
+        <div class="profile-img">
+          <img src="manish better.jpg" alt="Your Name" />
+          <h2 class="greeting">
+            HI! <br />
+            I'm Manish Koju
+          </h2>
+        </div>
+        <div class="about-me2">
+          <h2>About Me</h2>
+          <p>
+            Welcome to my professional website. I'm passionate about technology
+            and enjoy creating meaningful projects. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Eos beatae sapiente libero repellendus
+            magnam est fugiat, quam nihil, blanditiis quas, ipsam non adipisci
+            aut incidunt provident laudantium a doloribus error?
+          </p>
+        </div>
+      </section>
+      <section id="education">
+        <h2>Education</h2>
+        <p>I have received education from the following institutions:</p>
+        <div class="certificates">
+          <div class="c-one">
+            <h3>kathmandu university</h3>
+            <img src="manish.jpg" />
+          </div>
+          <div class="c-two">
+            <h3>SOS HGS kavre</h3>
+            <img src="manish.jpg" />
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills">
+          <i class="fab fa-java fa-10x"></i>
+
+          <i class="fab fa-html5 fa-10x"></i>
+
+          <i class="fab fa-css3 fa-10x"></i>
+
+          <i class="fab fa-js fa-10x"></i>
+
+          <i class="fab fa-facebook fa-10x"></i>
+        </div>
+      </section>
+      <section id="experience">
+        <h2>Experience</h2>
+        <p>
+          During my career, I've had the opportunity to work on various projects
+          and gain experience in different areas of software development.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>You can contact me via email: manishkoju@gmail.com</p>
+      </section>
+    </main>
+    <!-- <footer>
+      <p>&copy; 2024 Manish Koju. All rights reserved.</p>
+    </footer> -->
+  </body>
+</html>
